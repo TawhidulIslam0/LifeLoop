@@ -1,0 +1,13 @@
+LifeLoop setup quick guide
+==========================
+
+1. Install Flutter and Android Studio.
+2. Extract this folder.
+3. Open a terminal in the LifeLoop folder.
+4. Run:
+       flutter create --platforms=android .
+       flutter pub get
+       flutter run
+
+This source archive intentionally omits generated Android Gradle wrapper/build files,
+which Flutter creates for the machine's installed SDK. Keep lib/ and pubspec.yaml.
